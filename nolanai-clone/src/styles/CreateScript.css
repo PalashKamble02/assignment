@@ -1,0 +1,94 @@
+.create-script {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 20px;
+  }
+  
+  .create-script-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .create-script-box h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .create-script-box input,
+  .create-script-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .create-script-box textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .create-script-box button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-script-box button:hover {
+    background-color: #feb47b;
+  }
+  
+  .create-script-box button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .generated-script {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .generated-script h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .generated-script pre {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    white-space: pre-wrap;
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    background-color: #28a745 !important;
+  }
+  
+  .save-button:hover {
+    background-color: #218838 !important;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 20px;
+  }
